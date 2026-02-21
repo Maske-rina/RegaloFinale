@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Buon San Valentino</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to bottom, #ff9aa2, #ffdde1);
+        overflow: hidden;
+    }
+
+    .page {
+        display: none;
+        height: 100vh;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .active {
+        display: flex;
+    }
+
+    h1 {
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
+
+    .subtitle {
+        font-size: 1.5em;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    .subtitle:hover {
+        text-decoration: underline;
+    }
+
+    .small {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        font-size: 12px;
+    }
+
+    button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        border: none;
+        background-color: #ff4d6d;
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #ff1f4b;
+    }
+
+    .rose {
+        font-size: 2em;
+        margin-left: 10px;
+    }
+
+    .ring {
+        font-size: 100px;
+    }
+
+    /* Cuori */
+    .heart {
+        position: absolute;
+        top: -10px;
+        color: red;
+        font-size: 20px;
+        animation: fall linear infinite;
+    }
+
+    @keyframes fall {
+        to {
+            transform: translateY(100vh);
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<!-- PAGINA PRINCIPALE -->
+<div id="home" class="page active">
+    <div>
+        <h1>Buon San Valentino 🌹</h1>
+
+        <div class="subtitle" onclick="showPage('page1')">
+            un inizio indimenticabile
+        </div>
+
+        <div class="subtitle" onclick="showPage('page2')">
+            Ti amo &lt;3
+        </div>
+
+        <div class="subtitle" onclick="showPage('page3')">
+            A little gift
+        </div>
+    </div>
+
+    <div class="small">no, non sono gay :)</div>
+</div>
+
+<!-- PAGINA 1 -->
+<div id="page1" class="page">
+    <div>
+        <p>
+            Ciao, probabilmente questo regalo ti arriva in ritardo, ma ci tenevo davvero a dartelo. 
+            Non è solo un oggetto, è un piccolo simbolo di quello che provo per te e di quanto sei importante nella mia vita.
+            Sin da quando ci siamo conosciuti ho sempre pensato che sei una persona fantastica. 
+            Hai qualcosa di speciale che riesce a far stare bene chiunque ti stia accanto. 
+            Sei una di quelle persone su cui tutti possono contare, sempre pronta ad ascoltare, a sostenere, 
+            a dare una parola di conforto o anche solo un sorriso nei momenti giusti. 
+            La tua forza, la tua dolcezza e il tuo modo di vedere le cose mi hanno colpito fin dal primo giorno.
+
+            Come ben sai, il 10 maggio ti ho chiesto di diventare il mio fidanzato. 
+            In quel momento ero timido e molto insicuro e alla notizia che per qualche motivo ti piacevo pure ero euforico. 
+            Oggi posso dirti con certezza che non me ne sono mai pentito, nemmeno per un secondo. 
+            È stata la scelta migliore della mia vita.
+            Grazie a te sono cambiato, sono cresciuto e mi sono migliorato tanto. 
+            Mi hai insegnato a credere di più in me stesso, a essere più paziente, più attento, più vero. 
+            Con te mi sento libero di essere me stesso, senza filtri, senza paure. 
+            E questa è una delle cose più preziose che potessi desiderare.
+        </p>
+
+        <button onclick="showPage('home')">Torna indietro</button>
+    </div>
+</div>
+
+<!-- PAGINA 2 -->
+<div id="page2" class="page">
+    <div>
+        <p>
+           Sei arrivata alla seconda pagina, quella che per me è la più importante di tutte. 
+            Qui non ci sono solo parole, ma pensieri che tengo dentro e che forse non riesco sempre a dirti come dovrei.
+            Voglio iniziare chiedendoti scusa. Scusa per tutti i problemi che ti ho dato, per le mie insicurezze, 
+            per le volte in cui ti ho fatta arrabbiare, per quando magari non sono stato abbastanza attento 
+            o non ho capito subito quello di cui avevi bisogno. So che non sono perfetto e so che a volte posso 
+            essere difficile da gestire. E mi dispiace davvero.
+            Col tempo però ho capito una cosa importante: molte delle cose che mi dici, anche quando mi fanno 
+            arrabbiare o mi mettono davanti ai miei errori, le fai per me. Lo fai perché vuoi vedermi crescere, 
+            migliorare, diventare una persona migliore.
+            A volte dici, anche se in modo ironico, che io non ti amo. Forse lo dici per scherzo, forse per 
+            provocarmi un po’, ma ogni volta dentro di me sento il bisogno di dirti che non è vero. Ti amo più 
+            di quanto riesca a dimostrarti a parole o con i gesti. Forse non sempre sono bravo a esprimerlo, 
+            forse non lo faccio nel modo che ti aspetti, ma quello che provo è reale, profondo e sincero.
+            Voglio che tu sappia una cosa senza alcun dubbio: sei tu la donna che un giorno voglio sposare. 
+            Sei tu la persona con cui voglio costruire una famiglia, con cui voglio condividere i sogni.
+             Sei la persona con cui voglio svegliarmi ogni mattina e con cui voglio addormentarmi la sera, sapendo che qualsiasi 
+            cosa accada, siamo insieme.
+            Anche quando sembra che io sia distratto, distante o magari meno dimostrativo, il mio amore per te 
+            non cambia. Non è fragile, non dipende dagli umori del momento, non sparisce dopo una discussione. 
+            È una scelta che faccio ogni giorno: scegliere te, scegliere noi.
+            E anche se a volte puoi pensare il contrario, io non smetterò mai di amarti. Continuerò a crescere, 
+            a migliorare, a imparare per essere l’uomo che meriti. Perché tu per me non sei solo una persona 
+            importante: sei casa, sei futuro, sei tutto ciò che voglio. Ti amo <3
+        </p>
+
+        <button onclick="showPage('home')">Torna indietro</button>
+    </div>
+</div>
+
+<!-- PAGINA 3 -->
+<div id="page3" class="page">
+    <div>
+        <div class="ring">💍</div>
+        <p>for you :3</p>
+
+        <button onclick="showPage('home')">Torna indietro</button>
+    </div>
+</div>
+
+<script>
+    function showPage(id) {
+        document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+        document.getElementById(id).classList.add('active');
+    }
+
+    // Creazione cuori animati
+    function createHeart() {
+        const heart = document.createElement("div");
+        heart.classList.add("heart");
+        heart.innerHTML = "❤";
+
+        heart.style.left = Math.random() * 100 + "vw";
+        heart.style.animationDuration = (Math.random() * 3 + 2) + "s";
+        heart.style.fontSize = (Math.random() * 20 + 10) + "px";
+
+        document.body.appendChild(heart);
+
+        setTimeout(() => {
+            heart.remove();
+        }, 5000);
+    }
+
+    setInterval(createHeart, 300);
+</script>
+
+</body>
+</html>
